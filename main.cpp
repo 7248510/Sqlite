@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "sqlite3.h" //You need your header file
+#pragma comment(lib,"sqlite3.lib") //Linking with CLI isn't neccesary with a pragma statement!
 //You also need sqlite's dll in the same directory as your program. Without the dll, windows displays a system error
 //https://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm
 //Tutorial points Connect to a database
